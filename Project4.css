@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+* { box-sizing: border-box; }
+html{
+	scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+
+section {
+    display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing:border-box;
+	vertical-align: middle;
+	background-image: url("images/BackgroundBanner.jpg");
+}
+
+section div{
+	width: 100%;
+	position: absolute;
+	top: 45%;
+}
+
+#banner-text h1{
+	color: white;
+}
+#banner-text p{
+	color: white;
+}
+
+#Self-Intro{
+	font-size: 1.5em;
+}
+
+.video-background-banner{
+	/* Full height */
+  	height: 100%; 
+
+  	/* Center and scale the image nicely */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+
+/* For mobile phones: */
+ [class*="col-"] {
+  width: 100%;
+} 
+
+@media screen and (min-width: 0px){
+	section div{
+		top: 22%;
+	}
+  #banner-text h1{
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 768px){
+	section div{
+		top: 34%;
+	}
+  #banner-text h1{
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 992px){
+	section div{
+		top: 45%;
+	}
+  #banner-text h1{
+    font-size: 3.5rem;
+  }
+}

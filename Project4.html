@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Project4.css">
+    <title>Cậu Nhỏ ở Hà Nội</title>
+
+    <!-- Bootstrap -->
+    	<!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    	<!-- jQuery library -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    	<!-- Popper JS -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    	<!-- Latest compiled JavaScript -->
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </head>
+	
+  <body>
+<!--	  Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+       <a class="navbar-brand" href="../Final Project/Project4.html" alt="Cậu Nhỏ ở Hà Nội">Cậu Nhỏ ở Hà Nội</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto justify-content-center">
+<!--             Journey-->
+			 <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Đôi Giày<span class="sr-only">(current)</span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Thái Lan</a>
+                   <a class="dropdown-item" href="#">Miến Điện</a>
+					<a class="dropdown-item" href="#">Ấn Độ</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Việt Nam</a>
+                </div>
+             </li>
+<!--			 My Work-->
+             <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Cái Bàn
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Nghiên Cứu Khoa Học</a>
+                   <a class="dropdown-item" href="#">Thiết Kế</a>
+                   <a class="dropdown-item" href="#">Video</a>
+					<a class="dropdown-item" href="#">Lập Trình</a>
+                </div>
+             </li>
+<!--             Blogs-->
+			 <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                	Cuốn Sổ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Làm Người Lớn</a>
+                   <a class="dropdown-item" href="#">Về Chuyện Học</a>
+                   <a class="dropdown-item" href="#">Chuyện Đi Làm</a>
+					<a class="dropdown-item" href="#">Thương Lấy Cái Thân</a>
+                </div>
+             </li>
+<!--             Disabled Menu-->
+			 <li class="nav-item">
+                <a class="nav-link disabled" href="#">Sắp Ra Mắt</a>
+             </li>
+          </ul>
+<!--		   Search Section-->
+          <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm Kiếm</button>
+          </form>
+       </div>
+    </nav>
+	
+	
+	  <!--1st Banner Section-->
+    <section class="video-background-banner text-center">
+
+<!--
+       <div class="video-background">
+    		<div class="video-foreground">
+      			<iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+    		</div>
+  		</div>
+-->
+
+		<div id="banner-text">
+			<h1 class="display-4">Chân Bước Đến Hà Nội Mà Hành Trang Gói Đầy Sài Gòn</h1>
+       		<p class="lead">Chỉ là một Cậu Nhỏ Sài Gòn mãi không chịu lớn dù có đi đâu, ngay cả ở Hà Nội.</p>
+			<p class="lead align-content-center">
+          		<a class="btn btn-info btn-lg smooth-scroll" href="#H2-Saigon" role="button">Cửa Sổ Sài Gòn</a>
+				<a class="btn btn-info btn-lg smooth-scroll" href="#H2-Hanoi" role="button">Góc Phòng Hà Nội</a>
+       		</p>
+		</div>
+		
+    </section>
+	
+	<!--2nd Banner Section-->
+   <div class="container">
+       <!-- Short Intro -->
+       <br>
+	   <div class="row text-center">
+          <br>
+		   <div id="Self-Intro" class="col-lg-12"><strong><em>Mình chẳng có một cái kế hoạch nào cả, sau quá nhiều chuyện dẫn mình đến Hà Nội, nói cho bạn biết để đừng kỳ vọng mình nhiều quá lại thất vọng thôi. Vẫn đang học cách cho đi đừng giữ lại, sống chấp nhận bất kỳ, đến bất cứ nơi nào cần phải đến, học bất cứ bài học nào cần phải học, gặp bất cứ ai cần phải gặp, làm bất cứ điều gì cần phải làm nếu hữu duyên.</em></strong></div>
+       </div>
+		
+       <br>
+       <hr>
+       <br>
+		
+		<!--Sai Gon Section-->
+       <h2 class="display-12 text-center" id="H2-Saigon">Sài Gòn và Tấm Vé Trên Tay</h2>
+       <p class="lead col-lg-12 text-center"><em>"Sài Gòn đau lòng quá, toàn kỷ niệm chúng ta..."</em></p>
+		<!-- SaiGon Carousel -->
+			<div class="row carousel slide" data-ride="carousel" id="carousel-SaiGon">
+			
+			<!-- Indicators -->
+  				<ul class="carousel-indicators">
+    				<li data-target="#carousel-Saigon" data-slide-to="0" class="active"></li>
+    				<li data-target="#carousel-Saigon" data-slide-to="1"></li>
+    				<li data-target="#carousel-Saigon" data-slide-to="2"></li>
+				</ul>
+			<!-- The SaiGon slideshow -->
+  				<div class="carousel-inner">
+					<!--1st Slide SaiGon-->
+    					<div class="carousel-item active">
+      					<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+          						<div class="card">
+                					<a href="https://en.wikipedia.org/wiki/Notre-Dame_Cathedral_Basilica_of_Saigon#/media/File:Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_03.JPG"><img class="card-img-top img-fluid rounded" src="images/NhaThoDucBa.jpeg" alt="Nhà Thờ Đức Bà"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Nhà Thờ Đức Bà</h4>
+                   						<p class="card-text">Chốn vui chơi bình dân của lứa học sinh sinh viên bao đời là công viên đối diện, sát sạt là Bưu điện thành phố.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+							<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Ch%C3%B9a_%C3%94n_L%C4%83ng.jpg"><img class="card-img-top img-fluid rounded" src="images/PhoNguoiHoa.jpg" alt="Chùa Ôn Lăng"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Khu Hoa Kiều</h4>
+                   						<p class="card-text">Nhắc đến Sài Gòn không thể thiếu đi những đóng góp to lớn của cộng đồng người Hoa và những giá trị mà họ vẫn gìn giữ.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+							<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Th%C6%B0_vi%E1%BB%87n_Khoa_h%E1%BB%8Dc_T%E1%BB%95ng_h%E1%BB%A3p_TP_H%E1%BB%93_Ch%C3%AD_Minh.jpg"><img class="card-img-top img-fluid rounded" src="images/ThuVienKhoaHocTongHop.jpg" alt="Thư Viện Khoa Học Tổng Hợp TP.HCM"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Thư Viện Tổng Hợp</h4>
+                   						<p class="card-text">Chán ngồi cà phê ồn ào để học bài gì đó thì vào thư viện tìm chốn yên ả mà mở cuốn sách ra.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+							</div>
+					
+    					</div>
+					
+					<!--Slides 2 Sai Gon-->
+    					<div class="carousel-item">
+      					<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:DGJ_0573_-_Got_a_stamp%3F_(3370729145).jpg"><img class="card-img-top img-fluid rounded" src="images/BuuDienTrungTamSaiGon.jpg" alt="Bưu Điện Trung Tâm Sài Gòn"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Bưu Điện Trung Tâm Sài Gòn</h4>
+                   						<p class="card-text">Bên trong được giữ nguyên kiến trúc từ lúc xây dựng, với thiết kế mái vòm đặc trưng theo phong cách Châu Âu lúc bấy giờ.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://cdn.tuoitre.vn/thumb_w/586/2020/11/3/ban-co-ky-cuoi-2-1read-only-16044084783591660369145.jpg"><img class="card-img-top img-fluid rounded" src="images/ChoBanCo.jpg" alt="Chợ Bàn Cờ"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Chợ Bàn Cờ</h4>
+                   						<p class="card-text">Người Sài Gòn giản dị và chân chất, đôi khi còn hơi xuề xòa, mà đã muốn lên đồ thì phải lựa đồ si cho vừa nhiều vừa rẻ.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Vietnamese_Women%27s_Museum_Building.JPG"><img class="card-img-top img-fluid rounded" src="images/BaoTangPhuNuNamBo.jpeg" alt="Bảo Tàng Phụ Nữ Nam Bộ"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Bảo Tàng Phụ Nữ Nam Bộ</h4>
+                   						<p class="card-text">Một bảo tàng theo mình đánh giá là có đầu tư về chất xám, đi không chán, và phản ánh đúng sự phát triển của người phụ nữ Việt Nam qua các thời kỳ.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+							</div>
+    					</div>
+					
+					<!--3nd Slide SaiGon-->
+    					<div class="carousel-item">
+      					<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Pho_Di_Bo_Nguyen_hue,_Ngay_tet_2016,B%E1%BA%BFn_Th%C3%A0nh,_Qu%E1%BA%ADn_1,_H%E1%BB%93_Ch%C3%AD_Minh,_Vi%E1%BB%87t_Nam_-_panoramio.jpg"><img class="card-img-top img-fluid rounded" src="images/PhoDiBoNguyenHue.jpg"
+									alt="Phố Đi Bộ Nguyễn Huệ"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Phố Đi Bộ Nguyễn Huệ</h4>
+                   						<p class="card-text">Tọa lạc ngay trung tâm thành phố với những thú vui thời thượng dành cho người trẻ, là nơi tập trung khá nhiều hoạt động văn hóa đường phố của giới trẻ Sài Thành.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Bui_Vien_Walking_Street_1.jpg"><img class="card-img-top img-fluid rounded" src="images/PhoTayBuiVien.jpg" alt="Phố Tây Bùi Viện"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Phố Tây Bùi Viện</h4>
+                   						<p class="card-text">Thêm một nơi ăn chơi vui đúng chất Tây cho những người trẻ muốn đổi món ăn tinh thần khi ở Sài Gòn, đảm bảo không vui không về!</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://tuoitre.vn/khanh-thanh-bao-tang-ao-dai-o-quan-9-591526.htm"><img class="card-img-top img-fluid rounded" src="images/BaoTangAoDai.jpg" alt="Bảo Tàng Áo Dài"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Bảo Tàng Áo Dài</h4>
+                   						<p class="card-text">Thêm một điểm đến dành cho người muốn tìm hiểu về lịch sử văn hóa Việt Nam. Là một người hâm mộ bác Sĩ Hoàng từ lâu, đương nhiên là mình không thể nào bỏ qua địa điểm này được</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+							</div>
+    					</div>
+			
+				</div>
+			<!-- Left and right controls -->
+  				<a class="carousel-control-prev" href="#carousel-SaiGon" data-slide="prev">
+    				<span class="carousel-control-prev-icon"></span>
+				</a>
+  				<a class="carousel-control-next" href="#carousel-SaiGon" data-slide="next">
+    				<span class="carousel-control-next-icon"></span>
+  				</a>
+		
+       	</div>
+		
+		<br>
+       <hr>
+       <br>
+		
+		<!--Ha Noi-->
+		<h2 class="display-12 text-center" id="H2-Hanoi">Hà Nội Mười Hai Mùa Hoa</h2>
+      	<p class="lead text-center"><em>"Tôi yêu những sắc hoa..."</em></p>
+		<!--Hanoi Carousel -->
+			<div class="row carousel slide" data-ride="carousel" id="carousel-HaNoi">
+			
+			<!-- Indicators -->
+  				<ul class="carousel-indicators">
+    				<li data-target="#carousel-HaNoi" data-slide-to="0" class="active"></li>
+    				<li data-target="#carousel-HaNoi" data-slide-to="1"></li>
+    				<li data-target="#carousel-HaNoi" data-slide-to="2"></li>
+				</ul>
+			<!-- The Hanoi slideshow -->
+  				<div class="carousel-inner">
+					<!--1st Slide Hanoi-->
+    					<div class="carousel-item active">
+      					<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:ChuaMotCot2.JPG"><img class="card-img-top img-fluid rounded" src="images/ChuaMotCot.jpeg" alt="Chùa Một Cột"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Chùa Một Cột</h4>
+                   						<p class="card-text">Với kiến trúc độc đáo: một điện thờ đặt trên một cột trụ duy nhất. Chùa Một Cột có tên ban đầu là Liên Hoa Đài có tức là Đài Hoa Sen.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_B%E1%BA%AFc_ho%C3%A0ng_th%C3%A0nh_Th%C4%83ng_Long.JPG"><img class="card-img-top img-fluid rounded" src="images/HoangThanhThangLong.jpeg" alt="Hoàng Thành Thăng Long"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Hoàng Thành Thăng Long</h4>
+                   						<p class="card-text">Hoàng thành Thăng Long là quần thể di tích gắn với lịch sử kinh thành Thăng Long - Đông Kinh và tỉnh thành Hà Nội bắt đầu từ thời kì tiền Thăng Long qua thời Đinh - Tiền Lê, phát triển mạnh dưới thời Lý, Trần, Lê và thành Hà Nội dưới triều Nguyễn.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Hoa_Lo_Prison_Maison_Centrale_Museum_(39543736421).jpg"><img class="card-img-top img-fluid rounded" src="images/NhaTuHoaLo.jpg" alt="Nhà Tù Hỏa Lò"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Nhà Tù Hỏa Lò</h4>
+                   						<p class="card-text">Nhà tù Hỏa Lò, hay còn gọi là ngục Hỏa Lò, xưa có tên tiếng Pháp là Maison Centrale, là một nhà tù cũ nổi tiếng nằm trên phố Hỏa Lò, quận Hoàn Kiếm, Hà Nội.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+							</div>
+					
+    					</div>
+					<!--2nd Slide Hanoi-->
+    					<div class="carousel-item">
+      					<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Hoan_Kiem.jpg"><img class="card-img-top img-fluid rounded" src="images/HoHoanKiem.jpg" alt="Hồ Hoàn Kiếm"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Hồ Hoàn Kiếm</h4>
+                   						<p class="card-text">Hồ Hoàn Kiếm còn được gọi là Hồ Gươm là một hồ nước ngọt tự nhiên nằm ở trung tâm thành phố Hà Nội, gắn liền với câu chuyện truyền thuyết.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://www.flickr.com/photos/danielmennerich/30592252315"><img class="card-img-top img-fluid rounded" src="images/VanMieu.jpg" alt="Văn Miếu Quốc Tử Giám"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Văn Miếu Quốc Tử Giám</h4>
+                   						<p class="card-text">"Hà Nội ngàn năm văn hiến" vậy thì "người Hà Nội ngàn năm văn vở".</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:Ph%E1%BB%91_H%C3%A0ng_D%E1%BA%A7u.jpg"><img class="card-img-top img-fluid rounded" src="images/PhoCoHaNoi.jpg" alt="Khu Phố Cổ Hà Nội"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Khu Phố Cổ Hà Nội</h4>
+                   						<p class="card-text">Khu phố cổ Hà Nội là tên gọi thông thường của một khu vực đô thị có từ lâu đời của Hà Nội nằm ở ngoài hoàng thành Thăng Long.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+							</div>
+    					</div>
+					<!--3nd Slide Hanoi-->
+    					<div class="carousel-item">
+      					<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://www.flickr.com/photos/dgmckelvey/9777010352/"><img class="card-img-top img-fluid rounded" src="images/HoTay.jpg" alt="Hồ Tây"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Nhà Thờ Đức Bà</h4>
+                   						<p class="card-text">Hồ Tây trước đây còn có các tên gọi khác như Đầm Xác Cáo, Hồ Kim Ngưu, Lãng Bạc, Dâm Đàm, Đoài Hồ, là một hồ nước tự nhiên lớn nhất ở nội thành thủ đô Hà Nội, nằm ở quận Tây Hồ.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://www.flickr.com/photos/hmoong/10770796553"><img class="card-img-top img-fluid rounded" src="images/NhaThoLonHaNoi.jpg" alt="Nhà Thờ Lớn Hà Nội"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Nhà Thờ Lớn Hà Nội</h4>
+                   						<p class="card-text">Nhà thờ Lớn Hà Nội là nhà thờ chính tòa của Tổng giáo phận Hà Nội, nơi có ngai tòa của tổng giám mục. Đây là một nhà thờ cổ kính tại thành phố này, thường xuyên diễn ra các sinh hoạt tín ngưỡng của các giáo dân Công giáo thuộc giáo xứ chính tòa cũng như của toàn tổng giáo phận.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+						
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+             					<div class="card">
+                					<a href="https://commons.wikimedia.org/wiki/File:TVQGVN.jpg"><img class="card-img-top img-fluid rounded" src="images/ThuVienQuocGia.jpg" alt="Thư viện Quốc gia Việt Nam"></a>
+                					<div class="card-body">
+                   						<h4 class="card-title">Thư viện Quốc gia Việt Nam</h4>
+                   						<p class="card-text">Thư viện Quốc gia Việt Nam là thư viện cấp quốc gia và là thư viện trung tâm của cả nước, trực thuộc Bộ Văn hóa, Thể thao và Du lịch Việt Nam.</p>
+                   						<br><br>
+                   						<a href="#" class="btn btn-info">Tìm Hiểu thêm</a>
+                					</div>
+             					</div>
+          					</div>
+							</div>
+    					</div>
+					</div>
+					<!-- Left and right controls -->
+  						<a class="carousel-control-prev" href="#carousel-HaNoi" data-slide="prev">
+    						<span class="carousel-control-prev-icon"></span>
+						</a>
+  						<a class="carousel-control-next" href="#carousel-HaNoi" data-slide="next">
+    						<span class="carousel-control-next-icon"></span>
+  						</a>
+				</div>
+
+		<br>
+      <hr>
+      <br>
+		
+		<!--Blog Section-->
+			<h2 class="display-12 text-center">Sổ Nhỏ của Cậu Nhỏ</h2>
+      		<p class="lead text-center"><em>Những vu vơ thoáng qua từ một cậu nhỏ trong thân xác người lớn</em></p>
+	   		
+	   <br>
+			<!-- Blog Carousel -->
+			<div id="Carousel-Blog" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+  					<ul class="carousel-indicators">
+    					<li data-target="#Carousel-Blog" data-slide-to="0" class="active"></li>
+    					<li data-target="#Carousel-Blog" data-slide-to="1"></li>
+    					<li data-target="#Carousel-Blog" data-slide-to="2"></li>
+  					</ul>
+				<!-- The slideshow -->
+  					<div class="carousel-inner">
+  						<!-- 1st Slide Blog -->
+    					<div class="carousel-item active">
+      						<div class="row">
+								<div class="col-lg-6">
+									<h4 class="card-title">Đi dạy ở Trường Đồi có gì vui?</h4>
+									<p class="card-text text-justify">Một cái trải nghiệm nho nhỏ khi đi dạy ở Trường Đồi, cách Hà Nội 40km về phía Tây, từng là một phần của Hà Tây lúc trước, một mô hình giáo dục kiểu mới, mình từng hy vọng nhiều, thất vọng cũng chẳng ít, nhưng rồi mọi chuyện cũng qua đi, chỉ còn tình thầy trò ở lại, và mình trân trọng thời gian mình ở tại trường, đó là điều quan trọng nhất. Cũng nghĩ là muốn sau này có một ngọn đồi nho nhỏ để dắt trẻ lên cho khám phá cây cỏ cho cái tuổi thơ nó đủ đầy.</p>
+								</div>
+								<div class="col-lg-6">
+									<iframe src="https://www.youtube.com/embed/XOo1ogi7dGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width=100% height=100% autoplay=1 loop=1></iframe>
+								</div>
+							<br>
+							<br>
+							</div>
+    					</div>
+    					<!-- 2nd Slide Blog -->
+    					<div class="carousel-item">
+							<div class="row">
+      							<div class="col-lg-6">
+									<h4 class="card-title">Pathom Asoke - Một Cộng Đồng Tỉnh Thức</h4>
+									<p class="card-text">Cách thủ đô Bangkok gần 70km về phía Tây Thái Lan, thường mình và các bạn du khách sẽ hay chọn xe lửa để đến Nakon Pathom trước khi bắt xe buýt đến Cộng Đồng Pathom. Sẽ ít người biết đến Nakhon Pathom khi đi du lịch Thái Lan, và cơ duyên mình biết đến nơi này cũng chỉ từ một đoạn hội thoại ngắn với thằng bạn rằng mình muốn đi tình nguyện ở Thái Lan, nhưng mà phải là nông thôn Thái Lan nơi chưa bị Công nghiệp hóa. Và, mình đến đây, với mình, Pathom Asoke cho mình nhiều hơn chỉ là một nơi mình đến để phụ giúp họ công việc và học tập.</p>
+								</div>
+								<div class="col-lg-6">
+									<iframe width=100% height=100% src="https://www.youtube.com/embed/gkXaPZKsREQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay=1 loop=1></iframe>
+								</div>
+							<br>
+							<br>
+							</div>
+    					</div>
+    					<!-- 3rd Slide Blog -->
+    					<div class="carousel-item">
+      						<div class="row">
+								<div class="col-lg-6">
+									<h4 class="card-title">Đến Bồ Đề Đạo Tràng mà chẳng có chút sùng đạo nào!</h4>
+									<p class="card-text">Nghe thì buồn cười cơ mà đi một vòng Bồ Đề Đạo Tràng ở Bodh Gaya vẫn nghe loáng thoáng nghe được tiếng Việt các đoàn hành hương đến đây để nâng cao thực tập tâm linh. Trừ mình ra! Mình chẳng có một chút Đức tin nào lúc đó, mình quay trở lại Bodh Gaya sau 2 tháng rong ruổi khắp miền Bắc Ấn Độ từ mạn Đông sang mạn Tây chỉ vì quá mê cô Phương Mai và chị Huyền Chip cùng những chuyến đi không có dự định ấy. Cơ cũng là một cái duyên lành vì cuối cùng mình đã có 2 tháng cuối cùng ở Ấn Độ thật ý nghĩa và được các nữ tu ở Jamyang Foundation bảo bọc đến khi mình quay về Thái Lan đầu 2020.</p>
+								</div>
+								<div class="col-lg-6">
+									<iframe width=100% height=100% src="https://www.youtube.com/embed/kJtGNZlvKUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay=1 loop=1></iframe>
+								</div>
+							<br>
+							<br>
+							</div>
+  						</div>
+				
+					</div>	
+					<!-- Left and right controls -->
+  						<a class="carousel-control-prev" href="#Carousel-Blog" data-slide="prev">
+    						<span class="carousel-control-prev-icon"></span>
+  						</a>
+  						<a class="carousel-control-next" href="#Carousel-Blog" data-slide="next">
+    						<span class="carousel-control-next-icon"></span>
+  						</a>
+
+			</div>
+
+   	 <br>
+       <hr>
+       <br>
+		
+<!--		Contact-->
+		<h2 class="text-center display-12">Gõ Cửa đến Cậu Nhỏ</h2>
+	   <p class="lead text-center"><em>Cậu Nhỏ sống hơi khép kín nhưng Sẵn sàng mở lòng với người hữu duyên</em></p>
+	   <br>
+		
+       <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+             <div class="card">
+                <div class="card-body">
+                   <h3>Sài Gòn</h3>
+                   <ul class="list-unstyled">
+						<li>Quận Gò Vấp</li>
+				   		<li>cminhphan@hotmail.com</li>
+				   		<li>+84 (0) 32 860 9492</li>
+					</ul>
+                   <button type="button" class="btn btn-info btn-md">Nhắn Zalo cho mình</button>
+					<br>
+                   <button type="button" class="btn btn-success btn-md">Nhắn WhatsApp cho mình</button>
+					<br>
+                   <button type="button" class="btn btn-primary btn-md">Gửi thư cho mình</button>
+                </div>
+             </div>
+          </div>
+		   
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">			  
+             <div class="card">
+                <div class="card-body">
+                   <h3>Hà Nội</h3>
+                   <ul class="list-unstyled">
+						<li>Quận Đống Đa</li>
+				   		<li>dminhphan96@gmail.com</li>
+				   		<li>+84 (0) 906 634 094</li>
+					</ul>
+                   <button type="button" class="btn btn-info btn-md">Nhắn Zalo cho tôi</button>
+					<br>
+                   <button type="button" class="btn btn-success btn-md">Nhắn WhatsApp cho tôi</button>
+					<br>
+                   <button type="button" class="btn btn-primary btn-md">Gửi thư cho mình</button>
+                </div>
+             </div>
+          </div>
+		  
+		   <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+		   		<a data-flickr-embed="true" href="https://www.flickr.com/photos/131484744@N04/51370155819/in/dateposted-public/" title="Profile Picture - Square"><img class="rounded" src="https://live.staticflickr.com/65535/51370155819_3491346006_w.jpg" width=100% height=100% alt="Profile Picture - Square"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+		   </div> 
+       </div>
+		
+       <br>
+      
+	</div>	
+<!--		Footer-->
+      <div class="container-fluid"> 
+	  <div class="row jumbotron jumbotron-fluid">
+          <div class="text-center col-lg-12 col-md-12 col-sm-12 col-12">
+             <h4>Cậu Nhỏ ở Hà Nội </h4>
+             <p>Copyright &copy; 2021 &middot; All Rights Reserved &middot; <a href="#banner-text" alt="Cậu Nhỏ ở Sài Gòn">Lên Đầu Trang</a></p>
+          </div>
+       </div>
+    	</div>	 
+  </body>
+</html>
