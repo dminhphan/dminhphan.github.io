@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    	<!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    	<!-- jQuery library -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    	<!-- Popper JS -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    	<!-- Latest compiled JavaScript -->
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap URL-->
+
+  <style type="text/css">
+  @import url("Project4.css");
+  </style>
+  </head>
+  <body>
+    
+	  <!--	  Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav-bar">
+       <a class="navbar-brand" href="https://dminhphan.github.io/index" alt="Cậu Nhỏ ở Hà Nội">Cậu Nhỏ ở Hà Nội</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto justify-content-center">
+<!--             Journey-->
+			 <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Đôi Giày<span class="sr-only">(current)</span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Thái Lan</a>
+                   <a class="dropdown-item" href="#">Miến Điện</a>
+					<a class="dropdown-item" href="#">Ấn Độ</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Việt Nam</a>
+                </div>
+             </li>
+<!--			 My Work-->
+             <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Cái Bàn
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Nghiên Cứu Khoa Học</a>
+                   <a class="dropdown-item" href="#">Thiết Kế</a>
+                   <a class="dropdown-item" href="#">Giáo Dục</a>
+					<a class="dropdown-item" href="#">Lập Trình</a>
+                </div>
+             </li>
+<!--             Blogs-->
+			 <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                	Cuốn Sổ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Làm Người Lớn</a>
+                   <a class="dropdown-item" href="#">Về Chuyện Học</a>
+                   <a class="dropdown-item" href="#">Chuyện Đi Làm</a>
+					<a class="dropdown-item" href="#">Thương Lấy Cái Thân</a>
+                </div>
+             </li>
+<!--             Disabled Menu-->
+			 <li class="nav-item">
+                <a class="nav-link disabled" href="#">Sắp Ra Mắt</a>
+             </li>
+          </ul>
+<!--		   Search Section-->
+          <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm Kiếm</button>
+          </form>
+       </div>
+    </nav>
+
+<!--    Banner Section-->
+	  <section class="video-background-banner text-center" id="top">
+
+		<div id="banner-text">
+			<h1 class="display-4">Đến Thái Lan Tình Nguyện ở Cộng Đồng Pathom Asoke</h1>
+       		<p class="lead">Cộng Đồng Pathom Asoke nằm ở tỉnh Nakhon Pathom cách thủ đô Bangkok 70km về phía Tây, thường di chuyển bằng tàu hỏa để đến đây hoặc có đường cao tốc chạy dọc toàn Thái Lan. Ngày đầu thành lập Pathom Asoke là một trong các nhánh của Asoke Community trải dọc khắp Thái Lan. </p>
+		</div>
+		
+    	</section>
+		
+       <br>
+       <hr>
+       <br>
+	  <div class="container">
+       <div class="row">
+          <div class="col-md-4">
+             <div class="card">
+                <img class="card-img-top" src="card-img.png" alt="Card image cap">
+                <div class="card-body">
+                   <h4 class="card-title">Card title</h4>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <br><br>
+                   <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+             </div>
+          </div>
+		   
+          <div class="col-md-4">
+             <div class="card">
+                <div class="card-body">
+                   <h5 class="card-title">Card title</h5>
+                   <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="card-link">Card link</a>
+                   <a href="#" class="card-link">Another link</a>
+                </div>
+             </div>
+             <br>
+             <br/>
+             <div class="card">
+                <div class="card-header">
+                   Featured
+                </div>
+                <ul class="list-group list-group-flush">
+                   <li class="list-group-item">Cras justo odio</li>
+                   <li class="list-group-item">Dapibus ac facilisis in</li>
+                   <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+             </div>
+          </div>
+          <div class="col-md-4">
+             <div class="card">
+                <img class="card-img-top" src="card-img.png" alt="Card image cap">
+                <div class="card-body">
+                   <h5 class="card-title">Card title</h5>
+                   <p class="card-text">Some text to build on the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                   <li class="list-group-item">Cras justo odio</li>
+                   <li class="list-group-item">Dapibus ac facilisis in</li>
+                </ul>
+                <div class="card-body">
+                   <a href="#" class="card-link">Card link</a>
+                   <a href="#" class="card-link">Another link</a>
+                </div>
+             </div>
+          </div>
+       </div>
+       <br/>
+       <br/>
+       <div class="row">
+          <div class=" col-md-4"> Click here to select this<strong> column.</strong> Always place your content within a column. Columns are indicated by a dashed blue line. </div>
+          <div class="col-md-4 "> You can <strong>resize a column</strong> using the handle on the right. Drag it to increase or reduce the number of columns.</div>
+          <div class="col-md-4 "> You can <strong>offset a column</strong> using the handle on the left. Drag it to increase or reduce the offset. </div>
+       </div>
+       <br/>
+       <br/>
+       <div class="row">
+          <div class="col-md-6 text-center">
+             <div class="card">
+                <div class="card-body">
+                   <h3>Adding <strong>Buttons</strong></h3>
+                   <p>Quickly add buttons to your page by using the button component in the insert panel. </p>
+                   <button type="button" class="btn btn-info btn-md">Info Button</button>
+                   <button type="button" class="btn btn-success btn-md">Success Button</button>
+                </div>
+             </div>
+          </div>
+          <div class="text-center col-md-6">
+             <div class="card">
+                <div class="card-body">
+                   <h3>Adding <strong>Badges</strong></h3>
+                   <p>Using the insert panel, add badge to your page by using the badge component.</p>
+                   <span class="badge badge-info">Info Badge</span> <span class="badge badge-danger">Danger Badge</span>
+                </div>
+             </div>
+          </div>
+       </div>
+       <br>
+       <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+             <h4>Footer </h4>
+             <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
+          </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <!-- JQuery JS URL-->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <!-- Popper JS URL-->
+    <!-- Bootstrap JS URL-->
+  </body>
+</html>
