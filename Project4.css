@@ -30,6 +30,15 @@ section {
 	background-image: url("images/Thailand/BG-Thailand.jpg");
 }
 
+.India-banner{
+	display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing:border-box;
+	vertical-align: middle;
+	background-image: url("images/India/BG-India.jpg");
+}
+
 section div{
 	width: 100%;
 	position: absolute;
