@@ -79,7 +79,7 @@ section div{
 
 .background-banner{
 	/* Full height */
-  	height: 100%; 
+  	height: 100%;
 
   	/* Center and scale the image nicely */
   	background-position: center;
@@ -111,7 +111,7 @@ section div{
 /* For mobile phones: */
  [class*="col-"] {
   width: 100%;
-} 
+}
 
 @media screen and (min-width: 0px){
 	section div{
@@ -120,7 +120,7 @@ section div{
   	#banner-text h1{
     	font-size: 40px;
   }
-
+	
 }
 @media screen and (min-width: 768px){
 	section div{
