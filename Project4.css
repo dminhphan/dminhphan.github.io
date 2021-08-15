@@ -75,6 +75,7 @@ section div{
 
 #Self-Intro{
 	font-size: 1.5em;
+	font-family: -Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 
 .background-banner{
@@ -120,7 +121,9 @@ section div{
   	#banner-text h1{
     	font-size: 40px;
   }
-	
+	#Self-Intro{
+		font-size: 0.8em;
+	}
 }
 @media screen and (min-width: 768px){
 	section div{
@@ -129,7 +132,9 @@ section div{
   #banner-text h1{
     font-size: 2.4rem;
   }
-
+	#Self-Intro{
+		font-size: 1.2em;
+	}
 }
 @media screen and (min-width: 992px){
 	section div{
@@ -138,5 +143,7 @@ section div{
   #banner-text h1{
     font-size: 3.5rem;
   }
-
+	#Self-Intro{
+		font-size: 1.5em;
+	}
 }
